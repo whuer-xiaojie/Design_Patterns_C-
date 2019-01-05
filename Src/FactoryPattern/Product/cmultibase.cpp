@@ -22,30 +22,13 @@
  * SOFTWARE.
  *
  */
-#include <iostream>
+#include "cmultibase.h"
 
-#include "CSimpleFactory.h"
-#include "../Product/cproducta.h"
-#include "../Product/cproductb.h"
-
-SimpleFactory::SimpleFactory()
+CMultiBase::CMultiBase()
 {
-
-}
-SimpleFactory::~SimpleFactory()
-{
-
+	m_type = "";
 }
 
-CProductBase *SimpleFactory::createProduct(ProductType  type)
+CMultiBase::~CMultiBase()
 {
-	switch (type)
-	{
-	case e_Product_A:
-		return new CProductA();
-	case e_Product_B:
-		return new CProductB();
-	default:
-		return NULL;
-	}
 }

@@ -28,39 +28,87 @@
     <Filter Include="源文件\MethodFactory">
       <UniqueIdentifier>{814b6d37-57a5-4f83-9a4d-2e9bbe3a26df}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\AbstractFactory">
-      <UniqueIdentifier>{5ffafa52-7d5c-4b83-bbff-0a464e4e6aca}</UniqueIdentifier>
+    <Filter Include="头文件\Product">
+      <UniqueIdentifier>{e234bebc-e36f-46d7-834a-38e91d579dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Product">
+      <UniqueIdentifier>{69cefbd0-0f74-4986-80c1-5ac442589763}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Src\FactoryPattern\cproductbase.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Src\FactoryPattern\cproducta.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Src\FactoryPattern\cproductb.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\Src\FactoryPattern\SimpleFactory\CSimpleFactory.h">
       <Filter>头文件\SimpleFactory</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\MethodFactory\cmfactory.h">
+      <Filter>头文件\MethodFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\MethodFactory\cproductafactory.h">
+      <Filter>头文件\MethodFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\MethodFactory\cproductbfactory.h">
+      <Filter>头文件\MethodFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cmultibase.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproducta.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproductb.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproductbase.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproductx.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproducty.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\AbstractFactory\cabstractfactory.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\AbstractFactory\cabstractfactoryax.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\FactoryPattern\AbstractFactory\cabstractfactoryby.h">
+      <Filter>头文件\AbstractFactory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Src\FactoryPattern\cproductbase.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Src\FactoryPattern\cproducta.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Src\FactoryPattern\cproductb.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Src\FactoryPattern\SimpleFactory\CSimpleFactory.cpp">
       <Filter>源文件\SimpleDactory</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Src\FactoryPattern\main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\MethodFactory\cmfactory.cpp">
+      <Filter>源文件\MethodFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\MethodFactory\cproductafactory.cpp">
+      <Filter>源文件\MethodFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\MethodFactory\cproductbfactory.cpp">
+      <Filter>源文件\MethodFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cmultibase.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproducta.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproductb.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproductbase.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproductx.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproducty.cpp">
+      <Filter>源文件\Product</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

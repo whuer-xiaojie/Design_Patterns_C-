@@ -22,30 +22,24 @@
  * SOFTWARE.
  *
  */
+
+#ifndef CPRODUCTY_H_
+#define CPRODUCTY_H_
 #include <iostream>
+#include <string>
+#include "cmultibase.h"
+using namespace std;
 
-#include "CSimpleFactory.h"
-#include "../Product/cproducta.h"
-#include "../Product/cproductb.h"
-
-SimpleFactory::SimpleFactory()
+class CProductY:public CMultiBase
 {
+public:
+	CProductY();
+	~CProductY();
+	void showMulti(void);
+private:
 
-}
-SimpleFactory::~SimpleFactory()
-{
+};
 
-}
 
-CProductBase *SimpleFactory::createProduct(ProductType  type)
-{
-	switch (type)
-	{
-	case e_Product_A:
-		return new CProductA();
-	case e_Product_B:
-		return new CProductB();
-	default:
-		return NULL;
-	}
-}
+
+#endif // CPRODUCTY_H_

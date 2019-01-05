@@ -22,30 +22,41 @@
  * SOFTWARE.
  *
  */
-#include <iostream>
 
-#include "CSimpleFactory.h"
+#ifndef CABSTRACTFACTORYAX_H_
+#define CABSTRACTFACTORYAX_H_
+
+#include "cabstractfactory.h"
 #include "../Product/cproducta.h"
-#include "../Product/cproductb.h"
+#include "../Product/cproductx.h"
 
-SimpleFactory::SimpleFactory()
+class CAbstractFactoryAX:public CAbstractFactory
 {
+public:
+	CAbstractFactoryAX();
+	virtual ~CAbstractFactoryAX();
 
-}
-SimpleFactory::~SimpleFactory()
+	CProductBase* createProduct();
+	CMultiBase* createmultiProduct();
+private:
+
+};
+
+CAbstractFactoryAX::CAbstractFactoryAX()
 {
-
 }
 
-CProductBase *SimpleFactory::createProduct(ProductType  type)
+CAbstractFactoryAX::~CAbstractFactoryAX()
 {
-	switch (type)
-	{
-	case e_Product_A:
-		return new CProductA();
-	case e_Product_B:
-		return new CProductB();
-	default:
-		return NULL;
-	}
 }
+
+CProductBase* CAbstractFactoryAX::createProduct()
+{
+	return new CProductA();
+}
+
+CMultiBase* CAbstractFactoryAX::createmultiProduct()
+{
+	return new CProductX();
+}
+#endif // CABSTRACTFACTORYA_H_

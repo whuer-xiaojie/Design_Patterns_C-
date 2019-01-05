@@ -24,10 +24,24 @@
  */
 #include<iostream>
 
+#include "Product/cproductbase.h"
+#include "Product/cproducta.h"
+#include "Product/cproductb.h"
+#include "Product/cmultibase.h"
+#include "Product/cproductx.h"
+#include "Product/cproducty.h"
+
 #include "SimpleFactory/CSimpleFactory.h"
-#include "cproductbase.h"
-#include "cproducta.h"
-#include "cproductb.h"
+
+#include "MethodFactory/cmfactory.h"
+#include "MethodFactory/cproductafactory.h"
+#include "MethodFactory/cproductbfactory.h"
+
+#include "AbstractFactory/cabstractfactory.h"
+#include "AbstractFactory/cabstractfactoryax.h"
+#include "AbstractFactory/cabstractfactoryby.h"
+
+
 using namespace std;
 
 void simpleFactoryTest(void)
@@ -45,10 +59,55 @@ void simpleFactoryTest(void)
 	delete pProductB;
 }
 
+void methodFactoryTest(void)
+{
+	CMFactory *mFactoryA = new CProductAFactory();
+	CProductBase *pA = mFactoryA->createProduct();
+	pA->showProduct();
+
+	delete mFactoryA;
+	delete pA;
+
+	CMFactory *mFactoryB = new CProductBFactory();
+	CProductBase *pB = mFactoryB->createProduct();
+	pB->showProduct();
+
+	delete mFactoryB;
+	delete pB;
+}
+
+void abstractFactorytTest(void)
+{
+	CAbstractFactory *pFacotryAX =new CAbstractFactoryAX();
+	CProductBase *pA = pFacotryAX->createProduct();
+	CMultiBase *pX = pFacotryAX->createmultiProduct();
+
+	pA->showProduct();
+	pX->showMulti();
+
+	delete pFacotryAX;
+	delete pA;
+	delete pX;
+
+	CAbstractFactory *pFactoryBY = new CAbstractFactoryBY();
+	CProductBase *pB = pFactoryBY->createProduct();
+	CMultiBase *pY = pFactoryBY->createmultiProduct();
+
+	pB->showProduct();
+	pY->showMulti();
+
+	delete pFactoryBY;
+	delete pY;
+	delete pB;
+}
 
 int main(int argc, char **argv)
 {
 	simpleFactoryTest();
+
+	methodFactoryTest();
+
+	abstractFactorytTest();
 
 	system("pause");
 	return 0;

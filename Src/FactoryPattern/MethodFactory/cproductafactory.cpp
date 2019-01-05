@@ -22,30 +22,19 @@
  * SOFTWARE.
  *
  */
-#include <iostream>
-
-#include "CSimpleFactory.h"
+#include "cproductafactory.h"
+#include "../Product/cproductbase.h"
 #include "../Product/cproducta.h"
-#include "../Product/cproductb.h"
 
-SimpleFactory::SimpleFactory()
+CProductAFactory::CProductAFactory()
 {
-
-}
-SimpleFactory::~SimpleFactory()
-{
-
 }
 
-CProductBase *SimpleFactory::createProduct(ProductType  type)
+CProductAFactory::~CProductAFactory()
 {
-	switch (type)
-	{
-	case e_Product_A:
-		return new CProductA();
-	case e_Product_B:
-		return new CProductB();
-	default:
-		return NULL;
-	}
+}
+
+CProductBase* CProductAFactory::createProduct()
+{
+	return new CProductA();
 }

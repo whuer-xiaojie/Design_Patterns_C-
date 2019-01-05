@@ -1,3 +1,4 @@
+
 /*
  * MIT License
  *
@@ -22,30 +23,19 @@
  * SOFTWARE.
  *
  */
-#include <iostream>
 
-#include "CSimpleFactory.h"
-#include "../Product/cproducta.h"
-#include "../Product/cproductb.h"
+#ifndef CPRODUCTBFACTORY_H_
+#define CPRODUCTBFACTORY_H_
+#include "cmfactory.h"
 
-SimpleFactory::SimpleFactory()
+class CProductBFactory:public CMFactory
 {
+public:
+	CProductBFactory();
+	~CProductBFactory();
+	CProductBase* createProduct();
+private:
 
-}
-SimpleFactory::~SimpleFactory()
-{
+};
 
-}
-
-CProductBase *SimpleFactory::createProduct(ProductType  type)
-{
-	switch (type)
-	{
-	case e_Product_A:
-		return new CProductA();
-	case e_Product_B:
-		return new CProductB();
-	default:
-		return NULL;
-	}
-}
+#endif // CPRODUCTBFACTORY_H_

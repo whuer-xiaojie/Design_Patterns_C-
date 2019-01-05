@@ -22,30 +22,36 @@
  * SOFTWARE.
  *
  */
+
+#ifndef CABSTRACTFACTORY_H_
+#define CABSTRACTFACTORY_H_
+
 #include <iostream>
+#include <string>
+#include "../Product/cproductbase.h"
+#include "../Product/cmultibase.h"
 
-#include "CSimpleFactory.h"
-#include "../Product/cproducta.h"
-#include "../Product/cproductb.h"
+using namespace std;
 
-SimpleFactory::SimpleFactory()
+class CAbstractFactory
 {
+public:
+	
+	virtual ~CAbstractFactory();
+	virtual CProductBase* createProduct() = 0;
+	virtual CMultiBase*createmultiProduct() = 0;
+protected:
+	CAbstractFactory();
+private:
 
-}
-SimpleFactory::~SimpleFactory()
+};
+
+CAbstractFactory::CAbstractFactory()
 {
-
 }
 
-CProductBase *SimpleFactory::createProduct(ProductType  type)
+CAbstractFactory::~CAbstractFactory()
 {
-	switch (type)
-	{
-	case e_Product_A:
-		return new CProductA();
-	case e_Product_B:
-		return new CProductB();
-	default:
-		return NULL;
-	}
 }
+
+#endif // CABSTRACTFACTORY_H_

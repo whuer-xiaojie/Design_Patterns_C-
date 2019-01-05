@@ -22,30 +22,26 @@
  * SOFTWARE.
  *
  */
+
+#ifndef CMFACTORY_H_
+#define CMFACTORY_H_
+
 #include <iostream>
+#include <string>
 
-#include "CSimpleFactory.h"
-#include "../Product/cproducta.h"
-#include "../Product/cproductb.h"
+#include "../Product/cproductbase.h"
+using namespace std;
 
-SimpleFactory::SimpleFactory()
+class CMFactory
 {
+public:
+	virtual ~CMFactory();
+	virtual CProductBase* createProduct() = 0;
+protected:
+	CMFactory();
 
-}
-SimpleFactory::~SimpleFactory()
-{
+private:
 
-}
+};
 
-CProductBase *SimpleFactory::createProduct(ProductType  type)
-{
-	switch (type)
-	{
-	case e_Product_A:
-		return new CProductA();
-	case e_Product_B:
-		return new CProductB();
-	default:
-		return NULL;
-	}
-}
+#endif // CMFACTORY_H_

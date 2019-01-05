@@ -1,22 +1,25 @@
-﻿生成启动时间为 2019/1/4 16:40:01。
-     1>项目“E:\Learn\VS2013\Design_Patterns_C++\VS2013_Pro\DesignPatternsC++\FactoryPattern\FactoryPattern.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2019/1/5 12:39:46。
+     1>项目“E:\Learn\VS2013\Design_Patterns_C-\VS2013_Pro\DesignPatternsC++\FactoryPattern\FactoryPattern.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Src\FactoryPattern\cproducta.cpp ..\..\..\Src\FactoryPattern\cproductb.cpp ..\..\..\Src\FactoryPattern\cproductbase.cpp ..\..\..\Src\FactoryPattern\main.cpp ..\..\..\Src\FactoryPattern\SimpleFactory\CSimpleFactory.cpp
-         CSimpleFactory.cpp
-         main.cpp
-         cproductbase.cpp
-         cproductb.cpp
-         cproducta.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Src\FactoryPattern\Product\cproductx.cpp ..\..\..\Src\FactoryPattern\Product\cproducty.cpp
+         cproducty.cpp
+         cproductx.cpp
          正在生成代码...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Learn\VS2013\Design_Patterns_C++\VS2013_Pro\DesignPatternsC++\Debug\FactoryPattern.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Learn\VS2013\Design_Patterns_C++\VS2013_Pro\DesignPatternsC++\Debug\FactoryPattern.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Learn\VS2013\Design_Patterns_C++\VS2013_Pro\DesignPatternsC++\Debug\FactoryPattern.lib" /MACHINE:X86 Debug\cproducta.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Learn\VS2013\Design_Patterns_C-\VS2013_Pro\DesignPatternsC++\Debug\FactoryPattern.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Learn\VS2013\Design_Patterns_C-\VS2013_Pro\DesignPatternsC++\Debug\FactoryPattern.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Learn\VS2013\Design_Patterns_C-\VS2013_Pro\DesignPatternsC++\Debug\FactoryPattern.lib" /MACHINE:X86 Debug\main.obj
+         Debug\cmfactory.obj
+         Debug\cproductafactory.obj
+         Debug\cproductbfactory.obj
+         Debug\cmultibase.obj
+         Debug\cproducta.obj
          Debug\cproductb.obj
          Debug\cproductbase.obj
-         Debug\main.obj
+         Debug\cproductx.obj
+         Debug\cproducty.obj
          Debug\CSimpleFactory.obj
-         FactoryPattern.vcxproj -> E:\Learn\VS2013\Design_Patterns_C++\VS2013_Pro\DesignPatternsC++\Debug\FactoryPattern.exe
-     1>已完成生成项目“E:\Learn\VS2013\Design_Patterns_C++\VS2013_Pro\DesignPatternsC++\FactoryPattern\FactoryPattern.vcxproj”(Build 个目标)的操作。
+         FactoryPattern.vcxproj -> E:\Learn\VS2013\Design_Patterns_C-\VS2013_Pro\DesignPatternsC++\Debug\FactoryPattern.exe
+     1>已完成生成项目“E:\Learn\VS2013\Design_Patterns_C-\VS2013_Pro\DesignPatternsC++\FactoryPattern\FactoryPattern.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:04.32
+已用时间 00:00:00.81

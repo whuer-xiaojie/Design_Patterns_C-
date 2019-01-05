@@ -64,16 +64,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Src\FactoryPattern\cproducta.h" />
-    <ClInclude Include="..\..\..\Src\FactoryPattern\cproductb.h" />
-    <ClInclude Include="..\..\..\Src\FactoryPattern\cproductbase.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\AbstractFactory\cabstractfactory.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\AbstractFactory\cabstractfactoryax.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\AbstractFactory\cabstractfactoryby.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\MethodFactory\cmfactory.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\MethodFactory\cproductafactory.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\MethodFactory\cproductbfactory.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cmultibase.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproducta.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproductb.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproductbase.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproductx.h" />
+    <ClInclude Include="..\..\..\Src\FactoryPattern\Product\cproducty.h" />
     <ClInclude Include="..\..\..\Src\FactoryPattern\SimpleFactory\CSimpleFactory.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Src\FactoryPattern\cproducta.cpp" />
-    <ClCompile Include="..\..\..\Src\FactoryPattern\cproductb.cpp" />
-    <ClCompile Include="..\..\..\Src\FactoryPattern\cproductbase.cpp" />
     <ClCompile Include="..\..\..\Src\FactoryPattern\main.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\MethodFactory\cmfactory.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\MethodFactory\cproductafactory.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\MethodFactory\cproductbfactory.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cmultibase.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproducta.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproductb.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproductbase.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproductx.cpp" />
+    <ClCompile Include="..\..\..\Src\FactoryPattern\Product\cproducty.cpp" />
     <ClCompile Include="..\..\..\Src\FactoryPattern\SimpleFactory\CSimpleFactory.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

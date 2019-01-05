@@ -26,7 +26,7 @@
 #ifndef CSIMPLEFACTORY_H_
 #define CSIMPLEFACTORY_H_
 
-#include "../cproductbase.h"
+#include "../Product/cproductbase.h"
 typedef enum ProductType_t
 {
 	e_Product_A,
