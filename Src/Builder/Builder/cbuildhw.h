@@ -30,7 +30,7 @@ class CBuildHW:public CBuilder
 {
 public:
 	CBuildHW();
-	~CBuildHW();
+	virtual ~CBuildHW();
 
 	void buildName(void);
 	void buildPrice(void);

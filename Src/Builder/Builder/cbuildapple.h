@@ -32,7 +32,7 @@ class CBuildApple:public CBuilder
 {
 public:
 	CBuildApple();
-	~CBuildApple();
+	virtual ~CBuildApple();
 
 	void buildName(void);
 	void buildPrice(void);

@@ -39,7 +39,7 @@ public:
 	{
 
 	}
-	~CBuilder()
+	virtual  ~CBuilder()
 	{
 
 	}

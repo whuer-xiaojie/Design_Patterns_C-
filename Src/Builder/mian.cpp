@@ -26,10 +26,10 @@
 #include <string>
 
 #include "cdirector.h"
-#include "Builder/CBuildApple.h"
+#include "Builder/cbuildapple.h"
 #include "Builder/cbuilder.h"
-#include "Builder/CBuildHW.h"
-#include "Builder/CBuildMI.h"
+#include "Builder/cbuildhw.h"
+#include "Builder/cbuildmi.h"
 
 using namespace std;
 

@@ -31,7 +31,7 @@ class CBuildMI :public CBuilder
 {
 public:
 	CBuildMI();
-	~CBuildMI();
+	virtual ~CBuildMI();
 
 	void buildName(void);
 	void buildPrice(void);
