@@ -1,4 +1,4 @@
-/*
+﻿/*
  * MIT License
  *
  * Copyright (c) 2018 Whuer_XiaoJie <1939346428@qq.com>
@@ -26,12 +26,12 @@
 
 void adapterPatternTest(void)
 {
-	//��ģʽ
+	//类模式
 	CTarget *pTarget = new CAdapter();
 	pTarget->opreator();
 	delete pTarget;
 
-	//����ģʽ
+	//对像模式
 	CTarget *pTarget1 = new CAdapter1(new CAdaptree());
 	pTarget1->opreator();
 	delete pTarget1;

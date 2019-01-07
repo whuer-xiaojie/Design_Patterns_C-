@@ -1,4 +1,4 @@
-/*
+ï»¿/*
  * MIT License
  *
  * Copyright (c) 2018 Whuer_XiaoJie <1939346428@qq.com>
@@ -38,12 +38,12 @@ public:
 	CTarget();
 	virtual ~CTarget();
 
-	virtual void opreator(void) = 0;//¶¨Òå±ê×¼½Ó¿Ú£¨Êµ¼ÊĞèÒªµÄ½Ó¿Ú£©
+	virtual void opreator(void) = 0;//å®šä¹‰æ ‡å‡†æ¥å£ï¼ˆå®é™…éœ€è¦çš„æ¥å£ï¼‰
 private:
 
 };
 
-//ÀàÄ£Ê½£¬Í¨¹ıpublicÊµÏÖ½Ó¿Ú¼Ì³Ğ£¬privateÊ±¼äÊµÏÖ¼Ì³Ğ
+//ç±»æ¨¡å¼ï¼Œé€šè¿‡publicå®ç°æ¥å£ç»§æ‰¿ï¼Œprivateæ—¶é—´å®ç°ç»§æ‰¿
 class CAdapter:public CTarget,private CAdaptree
 {
 public:
@@ -55,7 +55,7 @@ private:
 };
 
 /*******************************************************************/
-//¶ÔÏóÄ£Ê½£¬²ÉÓÃ×éºÏ·½Ê½ÊµÏÖ½Ó¿ÚµÄÊÊÅäÆ÷
+//å¯¹è±¡æ¨¡å¼ï¼Œé‡‡ç”¨ç»„åˆæ–¹å¼å®ç°æ¥å£çš„é€‚é…å™¨
 class CAdapter1:public CTarget
 {
 public:
