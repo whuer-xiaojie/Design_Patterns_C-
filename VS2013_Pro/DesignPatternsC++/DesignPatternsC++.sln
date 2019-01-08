@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adapter", "Adapter\Adapter.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge", "Bridge\Bridge.vcxproj", "{3E471A39-CB37-4AEF-A71E-442B9F86EFF7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator", "Decorator\Decorator.vcxproj", "{80D51A0E-A7D3-400E-A7E2-D798AA73AAFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{3E471A39-CB37-4AEF-A71E-442B9F86EFF7}.Debug|Win32.Build.0 = Debug|Win32
 		{3E471A39-CB37-4AEF-A71E-442B9F86EFF7}.Release|Win32.ActiveCfg = Release|Win32
 		{3E471A39-CB37-4AEF-A71E-442B9F86EFF7}.Release|Win32.Build.0 = Release|Win32
+		{80D51A0E-A7D3-400E-A7E2-D798AA73AAFF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80D51A0E-A7D3-400E-A7E2-D798AA73AAFF}.Debug|Win32.Build.0 = Debug|Win32
+		{80D51A0E-A7D3-400E-A7E2-D798AA73AAFF}.Release|Win32.ActiveCfg = Release|Win32
+		{80D51A0E-A7D3-400E-A7E2-D798AA73AAFF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

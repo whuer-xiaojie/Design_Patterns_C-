@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Decorator">
+      <UniqueIdentifier>{30b6b66c-fd7c-497f-9f7d-4961672df616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Concrete">
+      <UniqueIdentifier>{5ccd1fac-99a8-44e3-b790-1d59916630da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Decorator">
+      <UniqueIdentifier>{0d23010d-f0d9-46e6-95b1-ada1f5027ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Concrete">
+      <UniqueIdentifier>{e310e28f-3281-450d-8406-21f34efaf81e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Src\Decorator\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\Decorator\cmoblephone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\Decorator\Concrete\ciphone.cpp">
+      <Filter>源文件\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\Decorator\Concrete\chwphone.cpp">
+      <Filter>源文件\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\Decorator\Concrete\cmiphone.cpp">
+      <Filter>源文件\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Src\Decorator\Decorator\cdecorator.cpp">
+      <Filter>源文件\Decorator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Src\Decorator\cmoblephone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\Decorator\Concrete\ciphone.h">
+      <Filter>头文件\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\Decorator\Concrete\chwphone.h">
+      <Filter>头文件\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\Decorator\Concrete\cmiphone.h">
+      <Filter>头文件\Concrete</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\Decorator\Decorator\cdecorator.h">
+      <Filter>头文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\Decorator\Decorator\cscreendecorator.h">
+      <Filter>头文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Src\Decorator\Decorator\cshelldecorator.h">
+      <Filter>头文件\Decorator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
