@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Product">
+      <UniqueIdentifier>{62d5ccae-32f4-4b19-b460-122f0c17ba2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Builder">
+      <UniqueIdentifier>{a02a4025-e984-4199-8e1e-31bfc10f0cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Builder">
+      <UniqueIdentifier>{032f0dab-d511-4c8e-aa64-25dc15e71f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Product">
+      <UniqueIdentifier>{bb1f3eda-e3e4-4ec0-9606-d58fca81b63d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cdirector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder\cbuildapple.cpp">
+      <Filter>源文件\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder\cbuildhw.cpp">
+      <Filter>源文件\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder\cbuildmi.cpp">
+      <Filter>源文件\Builder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cdirector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\cbuildapple.h">
+      <Filter>头文件\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\cbuilder.h">
+      <Filter>头文件\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\cbuildhw.h">
+      <Filter>头文件\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder\cbuildmi.h">
+      <Filter>头文件\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\cproduct.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

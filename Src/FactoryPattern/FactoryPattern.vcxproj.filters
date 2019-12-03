@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\SimpleFactory">
+      <UniqueIdentifier>{2742a4c9-7e82-44b6-83a5-bc43cd1740ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Product">
+      <UniqueIdentifier>{7b01c39b-66c3-4079-99f1-055a107daa6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AbstracFactory">
+      <UniqueIdentifier>{1f15f78b-3c68-4c2c-bb4a-7b4f18bf3d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MethodFactory">
+      <UniqueIdentifier>{62950178-b1f3-44a6-b647-e3579214370b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Product">
+      <UniqueIdentifier>{82f8e729-e6d0-4e19-81f6-ccf49c3db5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SimpleFactory">
+      <UniqueIdentifier>{890eede6-9aad-4f15-9192-d8fe7d0432ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MethodFactory">
+      <UniqueIdentifier>{b5f636e7-49f8-45e7-9be3-67fddbb33a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AbstracFactory">
+      <UniqueIdentifier>{9d7a0f92-3472-42f3-a5a8-76c16dc2223d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Product\cmultibase.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Product\cproducta.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Product\cproductb.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Product\cproductbase.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Product\cproductx.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Product\cproducty.cpp">
+      <Filter>源文件\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFactory\CSimpleFactory.cpp">
+      <Filter>源文件\SimpleFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodFactory\cmfactory.cpp">
+      <Filter>源文件\MethodFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodFactory\cproductafactory.cpp">
+      <Filter>源文件\MethodFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodFactory\cproductbfactory.cpp">
+      <Filter>源文件\MethodFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Product\cmultibase.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\cproducta.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\cproductb.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\cproductbase.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\cproductx.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Product\cproducty.h">
+      <Filter>头文件\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFactory\CSimpleFactory.h">
+      <Filter>头文件\SimpleFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodFactory\cmfactory.h">
+      <Filter>头文件\MethodFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodFactory\cproductafactory.h">
+      <Filter>头文件\MethodFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodFactory\cproductbfactory.h">
+      <Filter>头文件\MethodFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\cabstractfactory.h">
+      <Filter>头文件\AbstracFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\cabstractfactoryax.h">
+      <Filter>头文件\AbstracFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\cabstractfactoryby.h">
+      <Filter>头文件\AbstracFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

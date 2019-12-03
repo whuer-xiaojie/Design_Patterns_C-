@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\RefinedAbstraction">
+      <UniqueIdentifier>{2ea7edd4-8984-4aac-824c-d132334131a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RefinedAbstraction">
+      <UniqueIdentifier>{f2f40c38-ee62-463f-9a87-c12321b4708d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ImplementorAbstraction">
+      <UniqueIdentifier>{b2cbb503-3d4a-40ab-8b24-66027b2fa156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ImplementorAbstraction">
+      <UniqueIdentifier>{8263a06e-4c43-467f-87ea-8c06ba6fa944}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ccomputer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementorAbstraction\clinux.cpp">
+      <Filter>源文件\ImplementorAbstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementorAbstraction\coperatesystem.cpp">
+      <Filter>源文件\ImplementorAbstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementorAbstraction\cwindows.cpp">
+      <Filter>源文件\ImplementorAbstraction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ccomputer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RefinedAbstraction\cdellpc.h">
+      <Filter>头文件\RefinedAbstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="RefinedAbstraction\clenvopc.h">
+      <Filter>头文件\RefinedAbstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementorAbstraction\clinux.h">
+      <Filter>头文件\ImplementorAbstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementorAbstraction\coperatesystem.h">
+      <Filter>头文件\ImplementorAbstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplementorAbstraction\cwindows.h">
+      <Filter>头文件\ImplementorAbstraction</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

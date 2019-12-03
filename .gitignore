@@ -1,3 +1,10 @@
+
+# Debug Folders
+**/Debug
+# Editor
+*.vs
+*.vscode
+
 # Prerequisites
 *.d
 
