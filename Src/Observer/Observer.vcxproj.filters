@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\subject">
+      <UniqueIdentifier>{ae218c64-85c2-42a0-bee9-d837820e7a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\subject">
+      <UniqueIdentifier>{89cd58da-8556-4e5f-b893-d917a3d1fb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\observer">
+      <UniqueIdentifier>{133b7ba1-da58-41ac-bde8-a1c5fba6a37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\observer">
+      <UniqueIdentifier>{8ce3e471-cacf-4bce-818d-b3cdea494e23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="observer\cobserver.h">
+      <Filter>头文件\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="observer\cscreen.h">
+      <Filter>头文件\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="subject\cphotocell.h">
+      <Filter>头文件\subject</Filter>
+    </ClInclude>
+    <ClInclude Include="subject\csensor.h">
+      <Filter>头文件\subject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="observer\cobserver.cpp">
+      <Filter>源文件\observer</Filter>
+    </ClCompile>
+    <ClCompile Include="observer\cscreen.cpp">
+      <Filter>源文件\observer</Filter>
+    </ClCompile>
+    <ClCompile Include="subject\cphotocell.cpp">
+      <Filter>源文件\subject</Filter>
+    </ClCompile>
+    <ClCompile Include="subject\csensor.cpp">
+      <Filter>源文件\subject</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
