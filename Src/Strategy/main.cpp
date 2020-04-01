@@ -37,7 +37,9 @@ void strategyTest(void)
 	CContext *pCA = new CContext(pA);
 	pCA->doAction();
 	delete pCA;
+
 	cout << "***************************" << endl;
+
 	CResume *pB = new CResumeB();
 	CContext *pCB = new CContext(pB);
 	pCB->doAction();

@@ -34,7 +34,9 @@ CContext::CContext(CResume *presume):
 CContext::~CContext()
 {
 	if (m_pResume)
+	{
 		delete m_pResume;
+	}
 }
 
 void CContext::doAction()
