@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Decorator">
+      <UniqueIdentifier>{52fb5f7a-a678-4524-bde0-044a55dd821f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bridge">
+      <UniqueIdentifier>{8ad2c3a8-9abe-44bc-9fe9-da7c7f5de59b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\demo.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\demo2.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pattern-demo.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pattern-demo2.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pattern-demo3.h">
+      <Filter>源文件\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bridge\player.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bridge\player1.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bridge\pattern-player.h">
+      <Filter>源文件\Bridge</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

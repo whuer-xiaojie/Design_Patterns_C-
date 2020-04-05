@@ -50,7 +50,7 @@ void decoratorPatternTest(void)
 	pDec->showPhoneInfo();
 	cout << "*******************************" << endl;
 
-	delete pDec;//is the cause memory leak????
+	delete pDec;//is there cause memory leak????
 }
 
 int main(int argc, char**argv)

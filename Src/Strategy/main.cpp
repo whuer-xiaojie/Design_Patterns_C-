@@ -51,4 +51,5 @@ int main(int argc, char**argv)
 	strategyTest();
 
 	system("pause");
+	return 0;
 }
